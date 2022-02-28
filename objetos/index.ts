@@ -1,0 +1,11 @@
+function passCoordinates(coord: { x: number, y: number }) {
+  console.log(`X coordinate: ${coord.x}`)
+  console.log(`Y coordinate: ${coord.y}`)
+}
+
+const coord = {
+  x: 2,
+  y: 4
+}
+
+passCoordinates(coord)
